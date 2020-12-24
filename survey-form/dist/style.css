@@ -1,0 +1,79 @@
+body {
+    background-color: lightblue;
+    font-family: 'Raleway', Helvetica, sans-serif;
+}
+#title, #description {
+    text-align: center;
+    font-weight: bold;
+}
+h1 {
+    text-align: center;
+    border: 5px solid grey;
+    width: 300px;
+    border-radius: 25px;
+    background-color: lightgrey;
+    padding: 10px;
+}
+table {
+    margin: 0 50px 50px 100px;
+    border: 5px solid grey;
+    padding: 0 40px 40px 40px;
+    line-height: 60px;
+    background-color: lightgrey;
+    font-size: 20px;
+    border-radius: 50px;
+}
+td {
+    padding: 0 30px 0 30px;
+    width: 50%;
+}
+span {
+    color: red;
+}
+.rightlabels {
+    text-align: right;
+}
+#name, #email, #number, #dropdown, #dropdown-option {
+    width: 50%;
+    height: 30px;
+    background-color: lightskyblue;
+    border: 2px solid grey;
+}
+#comments {
+    background-color: lightskyblue;
+    border: 2px solid grey;
+}
+ul li {
+    list-style: none;
+    margin-left: -40px;
+}
+#table, #submit {
+    animation-name: backstage;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes backstage {
+    10% {
+        background-color: grey;
+    }
+    40% {
+        background-color: mediumblue;
+    }
+    90% {
+        background-color: khaki;
+    }
+    120% {
+        background-color: chartreuse;
+    }
+    150% {
+        background-color: cyan;
+    }
+}
+#submit {
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: blue;
+    border-color: grey;
+}

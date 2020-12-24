@@ -1,0 +1,33 @@
+#main {
+  background-color: #DCDCDC;
+  padding-bottom: 20px;
+}
+#title {
+    text-align: center;
+}
+#title-caption {
+    text-align: center;
+}
+#img-div {
+    text-align: center;
+    background-color: white;
+    margin: 12px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+#image {
+    max-width: 100%;
+    height: auto;
+}
+.quote {
+    text-align: center;
+    font-style: italic;
+}
+#tribute-info {
+	padding-left: 25%;
+    padding-right: 25%;
+  padding-top: 20px;
+}
+span {
+    font-weight: bold;
+}

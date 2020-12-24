@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body id="table">
+        <h1 id="title">Survey Form</h1>
+        <form method="GET" action="https://codepen.io/freeCodeCamp/full/VPaoNP"  id="survey-form">
+            <table>
+                <tr>
+                    <td colspan="2">
+                        <p id="description">Let us know more about your detail information</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="rightlabels"><label id="name-label"><span>*</span> Name:</label></div>
+                    </td>
+                    <td>
+                        <input type="text" name="name" id="name" placeholder="eg; Mr Smith" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="rightlabels"><label id="email-label"><span>*</span> Email:</label></div>
+                    </td>
+                    <td>
+                        <input type="email" name="email" id="email" placeholder="eg; smith@gmail.com" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="rightlabels"><label id="number-label"><span>*</span> Age:</label></div>
+                    </td>
+                    <td>
+                        <input type="number" name="number" id="number" min="18" max="70" placeholder="eg; 22" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="rightlabels"><label>Which option best describes your current role?</label></div>
+                    </td>
+                    <td>
+                        <select id="dropdown">
+                            <option value="select">Please select</option>
+                            <option value="unemploy">Unemployed</option>
+                            <option value="full-time">Full-time employed</option>
+                            <option value="part-time">Part-time employed</option>
+                            <option value="retired">Retired</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="rightlabels"><label>Please select the range of your income.</label></div>
+                    </td>
+                    <td>
+                        <div>
+                            <ul>
+                                <li>
+                                    <p><input type="radio" name="radio" value="under"> Under $300</p>
+                                </li>
+                                <li>
+                                    <p><input type="radio" name="radio" value="between"> Between $300 and $500</p>
+                                </li>
+                                <li>
+                                    <p><input type="radio" name="radio" value="upper"> Between $500 and $1000</p>
+                                </li>
+                                <li>
+                                    <p><input type="radio" name="radio" value="above"> Above $1000</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="rightlabels"><label>Which country to you want to exchange for promotion?</label></div>
+                    </td>
+                    <td>
+                        <select id="dropdown-option">
+                            <option value="selection">Please select</option>
+                            <option value="america">US</option>
+                            <option value="europe">Europe</option>
+                            <option value="asean">Asean</option>
+                            <option value="canada">Canada</option>
+                            <option value="africa">Africa</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="rightlabels"><label>What careers do you want to pursue in future?</label></div>
+                    </td>
+                    <td>
+                        <div>
+                            <ul>
+                                <li>
+                                    <p><input type="checkbox" name="occupation" value="teacher"> Teacher</p>
+                                </li>
+                                <li>
+                                    <p><input type="checkbox" name="occupation" value="doctor"> Doctor</p>
+                                </li>
+                                <li>
+                                    <p><input type="checkbox" name="occupation" value="engineer"> Engineer</p>
+                                </li>
+                                <li>
+                                    <p><input type="checkbox" name="occupation" value="scientist"> Scientist</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="rightlabels"><label>Any other comments or suggestions?</label></div>
+                    </td>
+                    <td>
+                        <textarea name="textarea" id="comments" cols="50" rows="8" placeholder="Please enter your comments or suggestions here"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit" id="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
